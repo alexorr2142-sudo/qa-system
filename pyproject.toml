@@ -1,0 +1,12 @@
+[project]
+name = "qa-system"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.3",
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=6.0.1",
+    "streamlit>=1.63.0",
+]

@@ -1,0 +1,106 @@
+[
+ {
+  "id": "Q1",
+  "type": "single",
+  "doc": "METR",
+  "figure": "19%",
+  "question": "How much did allowing AI tools change task completion time for experienced developers in the METR study?"
+ },
+ {
+  "id": "Q2",
+  "type": "single",
+  "doc": "METR",
+  "figure": "44%",
+  "question": "What share of Cursor's AI generations did developers accept in the METR study?"
+ },
+ {
+  "id": "Q3",
+  "type": "single",
+  "doc": "Sonar",
+  "figure": "35%",
+  "question": "What percentage of developers access AI coding tools through personal accounts rather than work-sanctioned ones, according to the Sonar survey?"
+ },
+ {
+  "id": "Q4",
+  "type": "single",
+  "doc": "Sonar",
+  "figure": "1,149",
+  "question": "How many developers responded to the Sonar State of Code survey, and when was the fieldwork?"
+ },
+ {
+  "id": "Q5",
+  "type": "single",
+  "doc": "OpenAI",
+  "figure": "6x",
+  "question": "In OpenAI's enterprise report, how much did the median industry sector grow year over year?"
+ },
+ {
+  "id": "Q6",
+  "type": "single",
+  "doc": "OpenAI",
+  "figure": "5x",
+  "question": "How much has API use by non-technology firms grown year over year, according to OpenAI?"
+ },
+ {
+  "id": "Q7",
+  "type": "single",
+  "doc": "ClaudeCode",
+  "figure": "screenshots",
+  "question": "How did Anthropic's Data Infrastructure team use Claude Code to fix a Kubernetes cluster problem?"
+ },
+ {
+  "id": "Q8",
+  "type": "single",
+  "doc": "ClaudeCode",
+  "figure": "70%",
+  "question": "In the Claude Code playbook, roughly what share of one team's feature implementation came from Claude's autonomous work?"
+ },
+ {
+  "id": "Q9",
+  "type": "single",
+  "doc": "Econ",
+  "figure": [
+   "81,000",
+   "80,508"
+  ],
+  "question": "How many Claude users were surveyed for Anthropic's Economics of AI Jobs report?"
+ },
+ {
+  "id": "Q10",
+  "type": "single",
+  "doc": "Pragmatic",
+  "figure": "900",
+  "question": "How many responses did the Pragmatic Engineer AI tooling survey receive?"
+ },
+ {
+  "id": "Q11",
+  "type": "cross",
+  "doc": [
+   "METR",
+   "Sonar"
+  ],
+  "figure": "19%",
+  "question": "Compare what the METR study measured about AI's effect on developer speed with what developers in the Sonar survey report about AI's impact on their work."
+ },
+ {
+  "id": "Q12",
+  "type": "notfound",
+  "doc": null,
+  "figure": null,
+  "question": "What percentage of Pragmatic Engineer survey respondents said they were less negative about AI tools than in 2024?"
+ },
+ {
+  "id": "Q13",
+  "type": "notfound",
+  "doc": null,
+  "figure": null,
+  "question": "What did the 2025 Stack Overflow Developer Survey find about Rust adoption?"
+ },
+ {
+  "id": "Q14",
+  "type": "notfound",
+  "doc": null,
+  "figure": null,
+  "question": "What is the population of France?"
+ }
+]

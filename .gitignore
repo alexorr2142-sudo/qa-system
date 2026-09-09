@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.DS_Store
+cache/pages_*
+cache/*.png
+cache/fake_claude.sh
+.claude/

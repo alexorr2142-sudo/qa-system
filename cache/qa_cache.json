@@ -1,0 +1,646 @@
+{
+ "a283b7927523366d": {
+  "question": "How much did allowing AI tools change task completion time for experienced developers in the METR study?",
+  "answer": "Allowing AI tools **increased** completion time by 19%\u2014meaning AI tooling slowed developers down [METR, p.1]. This directly contradicted developers' pre-task forecast that AI would *reduce* completion time by 24%, their post-study estimate of a 20% reduction [METR, p.1], and expert forecasts from economists (39% shorter) and ML researchers (38% shorter) [METR, p.1].",
+  "hits": [
+   [
+    "METR-000",
+    0.03333333333333333
+   ],
+   [
+    "METR-002",
+    0.03225806451612903
+   ],
+   [
+    "METR-074",
+    0.03177805800756621
+   ],
+   [
+    "METR-033",
+    0.03036576949620428
+   ],
+   [
+    "METR-022",
+    0.029850746268656716
+   ]
+  ],
+  "latency_ms": 5745,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2280,
+   "output_tokens": 104,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929292.4827409
+ },
+ "e2dc3688e92d98a1": {
+  "question": "What share of Cursor's AI generations did developers accept in the METR study?",
+  "answer": "Less than 44% [METR, p.20].",
+  "hits": [
+   [
+    "METR-026",
+    0.03306010928961749
+   ],
+   [
+    "METR-035",
+    0.03200204813108039
+   ],
+   [
+    "METR-018",
+    0.03115942028985507
+   ],
+   [
+    "METR-074",
+    0.031024531024531024
+   ],
+   [
+    "METR-064",
+    0.01639344262295082
+   ]
+  ],
+  "latency_ms": 2597,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2692,
+   "output_tokens": 17,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929300.941549
+ },
+ "bd564fcbed060303": {
+  "question": "What percentage of developers access AI coding tools through personal accounts rather than work-sanctioned ones, according to the Sonar survey?",
+  "answer": "35% of developers access the top 10 AI tools through personal accounts rather than work-sanctioned ones [Sonar, p.14-17].\n\nThis varies significantly by tool: 52% of ChatGPT users access it via personal accounts, and 63% of Perplexity users do the same. In contrast, GitHub Copilot and Amazon Q Developer show much lower personal account use at 17% each [Sonar, p.17-18].",
+  "hits": [
+   [
+    "Sonar-007",
+    0.032539682539682535
+   ],
+   [
+    "Sonar-000",
+    0.03137254901960784
+   ],
+   [
+    "Sonar-030",
+    0.03131881575727918
+   ],
+   [
+    "Sonar-008",
+    0.03131881575727918
+   ],
+   [
+    "Sonar-001",
+    0.016129032258064516
+   ]
+  ],
+  "latency_ms": 10482,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2644,
+   "output_tokens": 108,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929491.53442
+ },
+ "ba94c8a59fe56146": {
+  "question": "How many developers responded to the Sonar State of Code survey, and when was the fieldwork?",
+  "answer": "The survey included **1,149 responses**, and fieldwork ran **throughout October 2025** [Sonar, p.3-6].",
+  "hits": [
+   [
+    "Sonar-000",
+    0.03306010928961749
+   ],
+   [
+    "Sonar-001",
+    0.03279569892473118
+   ],
+   [
+    "Sonar-030",
+    0.03252247488101534
+   ],
+   [
+    "Sonar-029",
+    0.03125763125763126
+   ],
+   [
+    "Sonar-006",
+    0.030117753623188408
+   ]
+  ],
+  "latency_ms": 5545,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2711,
+   "output_tokens": 35,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929221.697094
+ },
+ "ed61fa2b4969a29a": {
+  "question": "In OpenAI's enterprise report, how much did the median industry sector grow year over year?",
+  "answer": "The median sector grew by more than 6x year-over-year [OpenAI, p.3-4].",
+  "hits": [
+   [
+    "OpenAI-001",
+    0.03306010928961749
+   ],
+   [
+    "OpenAI-005",
+    0.03279569892473118
+   ],
+   [
+    "OpenAI-000",
+    0.03252247488101534
+   ],
+   [
+    "OpenAI-002",
+    0.031746031746031744
+   ],
+   [
+    "OpenAI-006",
+    0.03125
+   ]
+  ],
+  "latency_ms": 2866,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2755,
+   "output_tokens": 29,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929224.564692
+ },
+ "fb070817b2475c8f": {
+  "question": "How much has API use by non-technology firms grown year over year, according to OpenAI?",
+  "answer": "Non-technology firm API use has grown **5x year-over-year** [OpenAI, p.10-12].",
+  "hits": [
+   [
+    "OpenAI-002",
+    0.03306010928961749
+   ],
+   [
+    "OpenAI-006",
+    0.03279569892473118
+   ],
+   [
+    "OpenAI-000",
+    0.032266458495966696
+   ],
+   [
+    "OpenAI-005",
+    0.031754032258064516
+   ],
+   [
+    "OpenAI-001",
+    0.03149801587301587
+   ]
+  ],
+  "latency_ms": 3014,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2756,
+   "output_tokens": 31,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929227.580694
+ },
+ "6c789f072a018091": {
+  "question": "How did Anthropic's Data Infrastructure team use Claude Code to fix a Kubernetes cluster problem?",
+  "answer": "When Kubernetes clusters went down and weren't scheduling new pods, the team fed screenshots of dashboards into Claude Code [ClaudeCode, p.1-3]. Claude Code guided them through Google Cloud's UI menu by menu until it identified a warning indicating pod IP address exhaustion [ClaudeCode, p.1-3]. It then provided the exact commands to create a new IP pool and add it to the cluster, resolving the issue without needing to involve networking specialists [ClaudeCode, p.1-3].",
+  "hits": [
+   [
+    "ClaudeCode-000",
+    0.03333333333333333
+   ],
+   [
+    "ClaudeCode-014",
+    0.03252247488101534
+   ],
+   [
+    "ClaudeCode-001",
+    0.03252247488101534
+   ],
+   [
+    "ClaudeCode-002",
+    0.031024531024531024
+   ],
+   [
+    "ClaudeCode-006",
+    0.03057889822595705
+   ]
+  ],
+  "latency_ms": 5011,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2555,
+   "output_tokens": 115,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929232.594383
+ },
+ "3fa592478107d20c": {
+  "question": "In the Claude Code playbook, roughly what share of one team's feature implementation came from Claude's autonomous work?",
+  "answer": "Roughly 70% of the final implementation came from Claude's autonomous work, specifically when building the Vim mode feature for Claude Code [ClaudeCode, p.4-5].",
+  "hits": [
+   [
+    "ClaudeCode-003",
+    0.03306010928961749
+   ],
+   [
+    "ClaudeCode-002",
+    0.03279569892473118
+   ],
+   [
+    "ClaudeCode-014",
+    0.03128054740957967
+   ],
+   [
+    "ClaudeCode-013",
+    0.03036576949620428
+   ],
+   [
+    "ClaudeCode-000",
+    0.01639344262295082
+   ]
+  ],
+  "latency_ms": 4843,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2558,
+   "output_tokens": 42,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929237.439743
+ },
+ "877d892b20e77ccb": {
+  "question": "How many Claude users were surveyed for Anthropic's Economics of AI Jobs report?",
+  "answer": "81,000 Claude users were surveyed [Econ, p.2].",
+  "hits": [
+   [
+    "Econ-000",
+    0.03306010928961749
+   ],
+   [
+    "Econ-006",
+    0.032539682539682535
+   ],
+   [
+    "Econ-007",
+    0.03125
+   ],
+   [
+    "Econ-001",
+    0.031024531024531024
+   ],
+   [
+    "Econ-003",
+    0.030834914611005692
+   ]
+  ],
+  "latency_ms": 2782,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2614,
+   "output_tokens": 22,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929240.223487
+ },
+ "6430daaf6e273894": {
+  "question": "How many responses did the Pragmatic Engineer AI tooling survey receive?",
+  "answer": "More than 900 responses [Pragmatic, p.1-2].",
+  "hits": [
+   [
+    "Pragmatic-005",
+    0.03279569892473118
+   ],
+   [
+    "Pragmatic-000",
+    0.03205128205128205
+   ],
+   [
+    "Pragmatic-001",
+    0.02919863597612958
+   ],
+   [
+    "METR-012",
+    0.01639344262295082
+   ],
+   [
+    "METR-064",
+    0.01639344262295082
+   ]
+  ],
+  "latency_ms": 3573,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2759,
+   "output_tokens": 20,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929243.798914
+ },
+ "707d416a8365c5bd": {
+  "question": "Compare what the METR study measured about AI's effect on developer speed with what developers in the Sonar survey report about AI's impact on their work.",
+  "answer": "The two sources directly contradict each other. METR's controlled field experiment found that tasks took **19% more time** when developers used AI tools like Cursor Pro\u2014a slowdown effect described as robust across analyses [METR, p.1-2]. Experts and participants also substantially *overestimated* how much AI would help [METR, p.1-2].\n\nBy contrast, the Sonar survey of 1,149 professionals found self-reported productivity *gains*: SMB developers reported a **39% increase** in personal productivity, while other developers reported a **34% lift** [Sonar, p.43-45]. Sonar respondents also reported positive impacts on code quality, lower defect rates, and faster time-to-market [Sonar, p.52-53].\n\nThe key methodological difference: METR measures *actual task completion times* in real open-source work, while Sonar captures *self-perceived* productivity. The gap likely reflects that developers' subjective sense of being faster diverges significantly from measured outcomes\u2014precisely the inferential problem METR set out to address [METR, p.1-2].",
+  "hits": [
+   [
+    "METR-074",
+    0.03205128205128205
+   ],
+   [
+    "Sonar-030",
+    0.031754032258064516
+   ],
+   [
+    "METR-001",
+    0.030798389007344232
+   ],
+   [
+    "Sonar-025",
+    0.016666666666666666
+   ],
+   [
+    "METR-009",
+    0.01639344262295082
+   ]
+  ],
+  "latency_ms": 20778,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 0,
+   "cache_read_input_tokens": 2342,
+   "output_tokens": 577,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 0,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929264.579251
+ },
+ "834a51853a086c88": {
+  "question": "What percentage of Pragmatic Engineer survey respondents said they were less negative about AI tools than in 2024?",
+  "answer": "Not found in the documents.\n\nThe closest related information is that the Pragmatic Engineer survey notes \"Fewer devs are negative about Al\" compared to 2024, but no specific percentage is provided [Pragmatic, p.1-2].",
+  "hits": [
+   [
+    "Pragmatic-000",
+    0.03306010928961749
+   ],
+   [
+    "Pragmatic-001",
+    0.032539682539682535
+   ],
+   [
+    "Pragmatic-005",
+    0.03149801587301587
+   ],
+   [
+    "Econ-001",
+    0.01639344262295082
+   ],
+   [
+    "Sonar-023",
+    0.016129032258064516
+   ]
+  ],
+  "latency_ms": 4374,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 2803,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 56,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2803,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929268.9565241
+ },
+ "69e6d0d512e4ed0a": {
+  "question": "What did the 2025 Stack Overflow Developer Survey find about Rust adoption?",
+  "answer": "Not found in the documents.\n\nThe closest related information concerns developer tool usage patterns, specifically rates of prior usage of tools like Visual Studio Code (63%), GitHub Copilot (56%), and Cursor (25%) among study participants [METR, p.50-51].",
+  "hits": [
+   [
+    "METR-000",
+    0.031544957774465976
+   ],
+   [
+    "METR-063",
+    0.0315136476426799
+   ],
+   [
+    "METR-031",
+    0.016666666666666666
+   ],
+   [
+    "METR-064",
+    0.016666666666666666
+   ],
+   [
+    "METR-075",
+    0.01639344262295082
+   ]
+  ],
+  "latency_ms": 4369,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 2736,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 62,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2736,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929273.328268
+ },
+ "5d9a769ded9cc39e": {
+  "question": "What is the population of France?",
+  "answer": "Not found in the documents.\n\nThe closest related information mentions France as one of the fastest-growing markets for business customers, increasing more than 143% year-over-year [OpenAI, p.10-12].",
+  "hits": [
+   [
+    "OpenAI-007",
+    0.03333333333333333
+   ],
+   [
+    "Econ-006",
+    0.029418126757516764
+   ],
+   [
+    "Sonar-031",
+    0.01639344262295082
+   ],
+   [
+    "OpenAI-006",
+    0.01639344262295082
+   ],
+   [
+    "Econ-008",
+    0.016129032258064516
+   ]
+  ],
+  "latency_ms": 3133,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 2759,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 50,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2759,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929276.463968
+ }
+}
