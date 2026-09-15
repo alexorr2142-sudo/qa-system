@@ -688,5 +688,51 @@
    "speed": "standard"
   },
   "ts": 1788929907.534749
+ },
+ "9940a9a175b7802b": {
+  "question": "What share of Claude users surveyed expect AI to change their job in the next five years, according to the Economics of AI Jobs report?",
+  "answer": "Not found in the documents.\nThe closest related information is that one fifth of respondents voiced concern about economic displacement, and perceived job threat was correlated with observed exposure to AI tasks [Econ, p.2-3].",
+  "hits": [
+   [
+    "Econ-000",
+    0.03306010928961749
+   ],
+   [
+    "Econ-006",
+    0.03306010928961749
+   ],
+   [
+    "Econ-001",
+    0.03225806451612903
+   ],
+   [
+    "Econ-003",
+    0.031024531024531024
+   ],
+   [
+    "Econ-007",
+    0.03076923076923077
+   ]
+  ],
+  "latency_ms": 10560,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 2624,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 330,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2624,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1789502778.074105
  }
 }
