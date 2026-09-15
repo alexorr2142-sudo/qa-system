@@ -1,7 +1,7 @@
 [project]
 name = "qa-system"
 version = "0.1.0"
-description = "Add your description here"
+description = "RAG question answering over six PDF reports with page-level citations"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

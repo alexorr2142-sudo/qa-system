@@ -642,5 +642,51 @@
    "speed": "standard"
   },
   "ts": 1788929276.463968
+ },
+ "ba029483687fe3c2": {
+  "question": "What share of developers use GitHub Copilot according to the Sonar survey?",
+  "answer": "75% of developers use GitHub Copilot [Sonar, p.14-17].",
+  "hits": [
+   [
+    "Sonar-007",
+    0.03333333333333333
+   ],
+   [
+    "METR-031",
+    0.03200204813108039
+   ],
+   [
+    "Sonar-008",
+    0.03149801587301587
+   ],
+   [
+    "Sonar-009",
+    0.03131881575727918
+   ],
+   [
+    "METR-075",
+    0.03128054740957967
+   ]
+  ],
+  "latency_ms": 5532,
+  "usage": {
+   "input_tokens": 3,
+   "cache_creation_input_tokens": 2753,
+   "cache_read_input_tokens": 0,
+   "output_tokens": 25,
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 2753,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "",
+   "iterations": [],
+   "speed": "standard"
+  },
+  "ts": 1788929907.534749
  }
 }

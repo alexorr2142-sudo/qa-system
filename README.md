@@ -137,7 +137,7 @@ The query itself is prefixed with bge's retrieval instruction
 
 ## Screenshots and how good the responses are
 
-Six screenshots in `screenshots/`. Each is followed by a short quality verdict.
+Seven screenshots in `screenshots/`: `00_home.png` is the empty app with the sidebar (documents, chunk size, top-k); the six below each show an answer and are followed by a short quality verdict.
 
 **`01_single_doc_live.png` — single-document fact, live call, source opened.**
 Q: *What percentage of developers access AI coding tools through personal accounts rather than

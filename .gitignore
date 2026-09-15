@@ -5,3 +5,4 @@ cache/pages_*
 cache/*.png
 cache/fake_claude.sh
 .claude/
+.playwright-mcp/
