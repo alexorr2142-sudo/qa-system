@@ -1,0 +1,6 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 19458.82it/s]
+Concurrency=1: success=1/1, avg_latency=5.08s, wall_time=5.08s
+Concurrency=3: success=3/3, avg_latency=2.19s, wall_time=3.11s
+Concurrency=5: success=5/5, avg_latency=2.44s, wall_time=2.88s
+Concurrency=10: success=9/10, avg_latency=23.47s, wall_time=180.22s
+  FAILURE after 180.21s: LLMError('timeout: Claude did not answer within 90s.')

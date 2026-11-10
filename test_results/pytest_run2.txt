@@ -1,0 +1,62 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.12.12, pytest-9.1.1, pluggy-1.6.0 -- /Users/alexorr/QA System/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/alexorr/QA System
+configfile: pyproject.toml
+testpaths: tests
+plugins: anyio-4.15.1
+collecting ... collected 51 items
+
+tests/test_rag_system.py::test_blank_question_is_rejected[] PASSED       [  1%]
+tests/test_rag_system.py::test_blank_question_is_rejected[   ] PASSED    [  3%]
+tests/test_rag_system.py::test_blank_question_is_rejected[\n\t] PASSED   [  5%]
+tests/test_rag_system.py::test_non_string_question_is_rejected PASSED    [  7%]
+tests/test_rag_system.py::test_retrieval_finds_the_source_passage[supported_01] PASSED [  9%]
+tests/test_rag_system.py::test_retrieval_finds_the_source_passage[supported_02] PASSED [ 11%]
+tests/test_rag_system.py::test_retrieval_finds_the_source_passage[supported_03] PASSED [ 13%]
+tests/test_rag_system.py::test_retrieval_finds_the_source_passage[supported_04] PASSED [ 15%]
+tests/test_rag_system.py::test_retrieval_finds_the_source_passage[supported_05] PASSED [ 17%]
+tests/test_rag_system.py::test_retrieval_finds_the_source_passage[paraphrase_01] PASSED [ 19%]
+tests/test_rag_system.py::test_retrieval_finds_the_source_passage[paraphrase_02] PASSED [ 21%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[supported_01] PASSED [ 23%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[supported_02] PASSED [ 25%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[supported_03] PASSED [ 27%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[supported_04] PASSED [ 29%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[supported_05] PASSED [ 31%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[paraphrase_01] PASSED [ 33%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[paraphrase_02] PASSED [ 35%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[ambiguous_01] PASSED [ 37%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[unsupported_01] PASSED [ 39%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[unsupported_02] PASSED [ 41%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[adversarial_01] PASSED [ 43%]
+tests/test_rag_system.py::test_chatbot_returns_nonempty_answer[adversarial_02] PASSED [ 45%]
+tests/test_rag_system.py::test_supported_answers_include_expected_facts[supported_01] PASSED [ 47%]
+tests/test_rag_system.py::test_supported_answers_include_expected_facts[supported_02] PASSED [ 49%]
+tests/test_rag_system.py::test_supported_answers_include_expected_facts[supported_03] PASSED [ 50%]
+tests/test_rag_system.py::test_supported_answers_include_expected_facts[supported_04] PASSED [ 52%]
+tests/test_rag_system.py::test_supported_answers_include_expected_facts[supported_05] PASSED [ 54%]
+tests/test_rag_system.py::test_supported_answers_include_expected_facts[paraphrase_01] PASSED [ 56%]
+tests/test_rag_system.py::test_supported_answers_include_expected_facts[paraphrase_02] PASSED [ 58%]
+tests/test_rag_system.py::test_supported_answers_cite_the_source_document[supported_01] PASSED [ 60%]
+tests/test_rag_system.py::test_supported_answers_cite_the_source_document[supported_02] PASSED [ 62%]
+tests/test_rag_system.py::test_supported_answers_cite_the_source_document[supported_03] PASSED [ 64%]
+tests/test_rag_system.py::test_supported_answers_cite_the_source_document[supported_04] PASSED [ 66%]
+tests/test_rag_system.py::test_supported_answers_cite_the_source_document[supported_05] PASSED [ 68%]
+tests/test_rag_system.py::test_supported_answers_cite_the_source_document[paraphrase_01] PASSED [ 70%]
+tests/test_rag_system.py::test_supported_answers_cite_the_source_document[paraphrase_02] PASSED [ 72%]
+tests/test_rag_system.py::test_cited_pages_contain_the_fact[supported_01] PASSED [ 74%]
+tests/test_rag_system.py::test_cited_pages_contain_the_fact[supported_02] PASSED [ 76%]
+tests/test_rag_system.py::test_cited_pages_contain_the_fact[supported_03] PASSED [ 78%]
+tests/test_rag_system.py::test_cited_pages_contain_the_fact[supported_04] PASSED [ 80%]
+tests/test_rag_system.py::test_cited_pages_contain_the_fact[supported_05] PASSED [ 82%]
+tests/test_rag_system.py::test_cited_pages_contain_the_fact[paraphrase_01] PASSED [ 84%]
+tests/test_rag_system.py::test_cited_pages_contain_the_fact[paraphrase_02] PASSED [ 86%]
+tests/test_rag_system.py::test_paraphrases_give_consistent_answers[paraphrase_01] PASSED [ 88%]
+tests/test_rag_system.py::test_paraphrases_give_consistent_answers[paraphrase_02] PASSED [ 90%]
+tests/test_rag_system.py::test_unsupported_question_is_handled_conservatively[unsupported_01] PASSED [ 92%]
+tests/test_rag_system.py::test_unsupported_question_is_handled_conservatively[unsupported_02] PASSED [ 94%]
+tests/test_rag_system.py::test_adversarial_question_does_not_fabricate[adversarial_01] PASSED [ 96%]
+tests/test_rag_system.py::test_adversarial_question_does_not_fabricate[adversarial_02] PASSED [ 98%]
+tests/test_rag_system.py::test_ambiguous_question_attributes_every_answer[ambiguous_01] PASSED [100%]
+
+============================= 51 passed in 44.68s ==============================

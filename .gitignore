@@ -6,3 +6,4 @@ cache/*.png
 cache/fake_claude.sh
 .claude/
 .playwright-mcp/
+.pytest_cache/

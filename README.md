@@ -228,6 +228,24 @@ killing the group.
 Per-question results, with the rubric columns (Correct / Grounded / Complete), are in
 `cache/eval_400.md`.
 
+## Automated tests (Lab 4)
+
+`test_adapter.py` exposes `ask_chatbot(question)` (live retrieval + Claude, bypassing the answer
+cache) and `retrieve(question)`. `tests/test_rag_system.py` runs the 13 source-verified cases in
+`test_cases.json`: expected facts, citation to the right document, cited page actually contains the
+fact, paraphrase consistency, `Not found` for unsupported and injection questions.
+
+```bash
+uv run pytest -v                 # 56 tests, 13 live Claude calls, ~50 s
+uv run pytest -v -m "not llm"    # retrieval + input validation only, ~9 s
+uv run python performance_test.py      # latency over 10 questions (Lab 4 Part 4)
+uv run python stress_test.py 1 3 5 10  # concurrent questions per level (Lab 4 Part 5)
+```
+
+The suite is 56 tests over 13 cases. Results, the AI-generated candidate cases and their review,
+performance and stress numbers, failure analysis and reflections are in `testing_report.md`;
+raw outputs are in `test_results/`. The classmate UAT form is `uat.md`.
+
 ## Limitations
 
 - **The Pragmatic Engineer PDF is truncated at the paywall.** Sections 5–7 are missing. The system

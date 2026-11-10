@@ -1,0 +1,4 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 18428.97it/s]
+Concurrency=1: success=1/1, avg_latency=5.00s, wall_time=5.00s
+Concurrency=3: success=3/3, avg_latency=2.34s, wall_time=2.98s
+Concurrency=5: success=5/5, avg_latency=2.73s, wall_time=2.95s

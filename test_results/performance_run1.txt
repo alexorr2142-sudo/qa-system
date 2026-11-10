@@ -1,0 +1,19 @@
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 10734.02it/s]
+Q1: 11.49 seconds
+Q2: 2.34 seconds
+Q3: 1.71 seconds
+Q4: 1.76 seconds
+Q5: 1.61 seconds
+Q6: 3.53 seconds
+Q7: 1.70 seconds
+Q8: 5.36 seconds
+Q9: 2.65 seconds
+Q10: 2.42 seconds
+
+--- Performance Summary ---
+Requests: 10
+Failures: 0
+Minimum: 1.61s
+Average: 3.46s
+Median:  2.38s
+Maximum: 11.49s
