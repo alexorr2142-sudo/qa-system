@@ -1,0 +1,8 @@
+# Runtime dependencies for CI and pip users. Versions match uv.lock.
+# The CPU-only PyTorch index keeps the CI install small: no CUDA libraries on GitHub's runners.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.0
+numpy==2.5.3
+rank-bm25==0.2.2
+sentence-transformers==6.0.1
+streamlit==1.63.0
