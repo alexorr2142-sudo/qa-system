@@ -15,7 +15,7 @@ def test_rag_builds_index():
 
 def test_retrieval_returns_results():
     results = get_rag().search("AI software developer productivity", k=3)
-    assert len(results) > 100
+    assert len(results) > 0
 
 
 def test_top_k_is_respected():
